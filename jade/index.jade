@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+        meta(name="description" content="descripcion del documento html")
+        meta(name="apple-mobile-web-app-capable" content="yes")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge,chrome=1")
+        link(rel="stylesheet", href="node_modules/css/ed-grid.css", attr)
+        link(rel="stylesheet", href="node_modules/css/mis_estilos.css", attr)
+        link(rel="stylesheet", href="fonts.css", attr)
+        link(rel="author", href="humans.txt", type="text/plain", attr)
+        link(rel="sitemap", href="sitemap.xml", type="application/xml" title="sitemap", attr)
+        link(rel="shortcut icon", href="img/base/favicon.png", type="imagen/x-icon", attr)
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Abel&family=Oswald:wght@300&display=swap")
+        title nuevo
+    body
+        #subencabezado
+            .ed-container
+                .ed-item
+                    .linea-a
+                        li: a(href="#" target="new" class="padding") FACEBOOK
+                        li: a(href="#" target="new" class="padding") TWITTER
+                        li: a(href="https://#" target="new" class="padding") CORREO
+        header.header
+            .ed-container
+                .ed-item.m-30
+                    .logo
+                        .ed-item
+                            img(src="img/base/logo.png", alt="")
+                .ed-item.max.m-70
+                    .menu_bar
+                        a(href="#" class="bt-menu") Menu
+                            span(class="icon-menu")
+                    nav
+                        ul
+                            li: a(href="#" target="new" class="padding") INICIO
+                            li: a(href="#" target="new" class="padding") NOSOTROS
+                            li: a(href="#" target="new" class="padding") SERVICIO
+                            li: a(href="#" target="new" class="padding") CONTACTO
+        section
+        footer.main-footer.enca-footer
+            .ed-container
+                .ed-item.main-center.m-25
+                    .correo
+                        p Pv105@hotmail.com
+                .ed-item.main-center.m-50
+                    .tex-footer
+                        p  CHRISS-ONTWERP Ofrece soluciones graficas de acuerdo a las nesecidades de tu empresa con responsabilidad calidad y cumplimiento
+                .ed-item.main-center.m-25
+                    .cell(m-grid)
+                        p 317-345-5519
+            .ed-container
+                .ed-item
+                    .redes
+                        div(style="position: relative; display: block; text-align: center; width: 100%; height: 40px; z-index: 10;")
+                        a(target="_blank" href="https://www.facebook.com/christian.r105" title="Share on Facebook" class="share-icon share-facebook")
+                        a(target="_blank" href="https://twitter.com/ChrissOntwerp" title="Share on Twitter" class="share-icon share-twitter")
+                        a( target="_blank" href="#" title="Share on Pinterst" class="share-icon share-pinterest")
+                        a(target="_blank" href="#" title="Share by Email" class="share-icon share-email")
+    script(src="node_modules/jquery/jquery-3.5.1.js")
+    script(src="node_modules/jquery/menu.js")
